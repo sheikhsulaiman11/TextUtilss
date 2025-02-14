@@ -9,7 +9,7 @@ import React, { useState } from 'react';
 
 function App() {
   const[mode, setmode]=useState('light');
-  const[mode2]=useState('green');
+  const[mode2,]=useState('green');
   const [alert, setAlert]= useState(false);
 
   const showAlert=(message, type)=>{
